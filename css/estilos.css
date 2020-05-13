@@ -1,0 +1,82 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body {
+  background-image: url(http://avante.biz/wp-content/uploads/The-Matrix-Live-Wallpapers/The-Matrix-Live-Wallpapers-001.jpg);
+  background-size: auto 100vh;
+  font-family: Arial;
+  backdrop-filter: blur(1px);
+  font-size: 10px;
+  color:white ;
+}
+
+@media (min-width: 400px) {
+body {
+  font-size: 15px;
+}
+}
+@media (min-size:600px){
+  body{
+    font-size: 20px;
+  }
+}
+
+header{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu{ 
+  background-color: #21d96a;
+  position: fixed;
+  width: 100vw;
+  top: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color:red
+  
+}
+
+.menu a{
+  display: block;
+padding: 10px 20px;
+}
+
+.menu ul{
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu li{
+  list-style: none;
+}
+
+.site-subtitle,
+.site-title{
+  text-align: center;
+  color:white
+}
+
+.site-title{
+  font-size:4em;
+}
+
+.img-portfolio {
+  height: 180px;
+  width: 180px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+}
